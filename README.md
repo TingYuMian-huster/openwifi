@@ -24,16 +24,22 @@ Openwifi code has dual licenses. [AGPLv3](https://github.com/open-sdr/openwifi/b
 **Pre-compiled FPGA files:** **openwifi-hw-img** repository, boards/**$BOARD_NAME**/sdk/ has FPGA bit file, ila .ltx file (if ila inserted) and other initilization files.
 
 Environment variable **BOARD_NAME** options:
-- **zc706_fmcs2** ([Xilinx ZC706 board](https://www.xilinx.com/products/boards-and-kits/ek-z7-zc706-g.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html))
-- **zed_fmcs2** ([Xilinx zed board](https://www.xilinx.com/products/boards-and-kits/1-8dyf-11.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html)) -- Vivado license **NOT** needed
-- **adrv9364z7020** ([ADRV9364-Z7020 + ADRV1CRR-BOB](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adrv9364-z7020.html)) -- Vivado license **NOT** needed
-- **adrv9361z7035** ([ADRV9361-Z7035 + ADRV1CRR-BOB/FMC](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/ADRV9361-Z7035.html))
-- **zc702_fmcs2** ([Xilinx ZC702 board](https://www.xilinx.com/products/boards-and-kits/ek-z7-zc702-g.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html)) -- Vivado license **NOT** needed
-- **antsdr** ([MicroPhase](https://github.com/MicroPhase/) enhanced ADALM-PLUTO SDR. [Notes](boards/antsdr/notes.md)) -- Vivado license **NOT** needed
-- **antsdr_e200** ([MicroPhase](https://github.com/MicroPhase/) enhanced ADALM-PLUTO SDR (smaller/cheaper). [Notes](boards/antsdr_e200/README.md)) -- Vivado license **NOT** needed
-- **sdrpi** ([HexSDR](https://github.com/hexsdr/) SDR in Raspberry Pi size [Notes](boards/sdrpi/notes.md)) -- Vivado license **NOT** needed
-- **neptunesdr** Low cost Zynq 7020 + AD9361 board -- Vivado license **NOT** needed
-- **zcu102_fmcs2** ([Xilinx ZCU102 board](https://www.xilinx.com/products/boards-and-kits/ek-u1-zcu102-g.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html))
+
+BOARD_NAME|Description|Vivado license
+----------|-----------|--------------
+zc706_fmcs2|[Xilinx ZC706 board](https://www.xilinx.com/products/boards-and-kits/ek-z7-zc706-g.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html)|Need
+zed_fmcs2|[Xilinx zed board](https://www.xilinx.com/products/boards-and-kits/1-8dyf-11.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html)|**NO** need
+adrv9364z7020|[ADRV9364-Z7020 + ADRV1CRR-BOB](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adrv9364-z7020.html)|**NO** need
+adrv9361z7035|[ADRV9361-Z7035 + ADRV1CRR-BOB/FMC](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/ADRV9361-Z7035.html)|Need
+zc702_fmcs2|[Xilinx ZC702 board](https://www.xilinx.com/products/boards-and-kits/ek-z7-zc702-g.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html)|**NO** need
+antsdr|[MicroPhase](https://github.com/MicroPhase/) enhanced ADALM-PLUTO [Notes](kernel_boot/boards/antsdr/notes.md)|**NO** need
+e310v2|[MicroPhase](https://github.com/MicroPhase/) new antsdr [Notes](kernel_boot/boards/e310v2/README.md)|**NO** need
+antsdr_e200|[MicroPhase](https://github.com/MicroPhase/) enhanced ADALM-PLUTO (smaller/cheaper) [Notes](kernel_boot/boards/antsdr_e200/README.md)|**NO** need
+sdrpi|[HexSDR](https://github.com/HexSDR/) SDR in Raspberry Pi size [Notes](kernel_boot/boards/sdrpi/notes.md)|**NO** need
+zcu102_fmcs2|[Xilinx ZCU102 board](https://www.xilinx.com/products/boards-and-kits/ek-u1-zcu102-g.html) + [FMCOMMS2/3/4](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms2.html)|Need
+rfsoc4x2|[RFSoC4x2 board](https://www.amd.com/en/corporate/university-program/aup-boards/rfsoc4x2.html)|Need
+neptunesdr|Low cost Zynq 7020 + AD9361 board (Unofficial!)|**NO** need
+LibreSDR|[Low cost Zynq 7020 + AD9361 board (Unofficial!)](https://github.com/pavelyazev/openwifi-libresdr)|**NO** need
 
 ## Build FPGA
 
