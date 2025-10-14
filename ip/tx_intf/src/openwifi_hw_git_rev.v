@@ -1,0 +1,1 @@
+`define OPENWIFI_HW_GIT_REV (32'hd047d79)

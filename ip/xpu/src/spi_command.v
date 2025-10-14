@@ -1,0 +1,2 @@
+`define SPI_HIGH 24'h088A01
+`define SPI_LOW 24'h008A01

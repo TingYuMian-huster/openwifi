@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Oct 13 22:44:44 2025
+# Process ID         : 58485
+# Current directory  : /home/caoyuan/openwifi/openwifi-hw/boards/sdrpi
+# Command line       : vivado -source ../ip_repo_gen.tcl
+# Log file           : /home/caoyuan/openwifi/openwifi-hw/boards/sdrpi/vivado.log
+# Journal file       : /home/caoyuan/openwifi/openwifi-hw/boards/sdrpi/vivado.jou
+# Running On         : caoyuan-virtual-machine
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2687.998 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 8278 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 10425 MB
+# Available Virtual  : 8461 MB
+#-----------------------------------------------------------
+start_gui
+source ../ip_repo_gen.tcl
+source ./openwifi.tcl

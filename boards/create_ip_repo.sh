@@ -29,7 +29,7 @@ rm -rf ip_config/*
 BOARD_NAME=${PWD##*/}
 echo $BOARD_NAME
 
-XILINX_ENV_FILE=$XILINX_DIR/Vitis/2022.2/settings64.sh
+XILINX_ENV_FILE=$XILINX_DIR/Vitis/settings64.sh
 echo "Expect env file $XILINX_ENV_FILE"
 
 if [ -f "$XILINX_ENV_FILE" ]; then

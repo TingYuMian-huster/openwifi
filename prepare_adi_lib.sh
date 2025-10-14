@@ -25,11 +25,11 @@ cd ./adi-hdl/
 # git reset --hard f61d9707eb0a62533efd6facab59ab2444da94c9
 git reset --hard
 git fetch
-git checkout 2022_R2
-git reset --hard 2022_R2
+git checkout main
+git reset --hard main
 
 # # the lib need to be built!
-source $XILINX_DIR/Vivado/2022.2/settings64.sh
+source $XILINX_DIR/Vivado/settings64.sh
 cd library/
 make
 
